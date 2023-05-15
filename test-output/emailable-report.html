@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">75,297</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">homePageBehavior.TC1</td><td><a href="#m0">YieldingCorrectResults</a></td><td rowspan="1">1684150872068</td><td rowspan="1">7839</td></tr><tr class="passedodd"><td rowspan="1">homePageBehavior.TC2</td><td><a href="#m1">GenderSelectionPreservedonSearching</a></td><td rowspan="1">1684150882714</td><td rowspan="1">10734</td></tr><tr class="passedeven"><td rowspan="1">homePageBehavior.TC3</td><td><a href="#m2">livingStatus</a></td><td rowspan="1">1684150896139</td><td rowspan="1">6767</td></tr><tr class="passedodd"><td rowspan="1">homePageBehavior.TC4</td><td><a href="#m3">ResetFilter</a></td><td rowspan="1">1684150905664</td><td rowspan="1">8384</td></tr><tr class="passedeven"><td rowspan="1">homePageBehavior.TC5</td><td><a href="#m4">noResultcase</a></td><td rowspan="1">1684150916867</td><td rowspan="1">2101</td></tr><tr class="passedodd"><td rowspan="1">homePageBehavior.TC6</td><td><a href="#m5">characterDisplayScreen</a></td><td rowspan="1">1684150921404</td><td rowspan="1">2538</td></tr><tr class="passedeven"><td rowspan="1">loginAndLogout.TC1</td><td><a href="#m6">login</a></td><td rowspan="1">1684150926622</td><td rowspan="1">764</td></tr><tr class="passedodd"><td rowspan="1">loginAndLogout.TC2</td><td><a href="#m7">wrongpassAndCorrectemail</a></td><td rowspan="1">1684150929974</td><td rowspan="1">268</td></tr><tr class="passedeven"><td rowspan="1">loginAndLogout.TC3</td><td><a href="#m8">wrongusername</a></td><td rowspan="1">1684150864384</td><td rowspan="1">189</td></tr><tr class="passedodd"><td rowspan="1">loginAndLogout.TC4</td><td><a href="#m9">successfulLoginRefresh</a></td><td rowspan="1">1684150867063</td><td rowspan="1">2439</td></tr><tr class="passedeven"><td rowspan="1">loginAndLogout.TC5</td><td><a href="#m10">logoutrefresh</a></td><td rowspan="1">1684150858147</td><td rowspan="1">3547</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">homePageBehavior.TC1#YieldingCorrectResults</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Jerry Smith
+Alive
+Male<br/>Jerry Smith
+Alive
+Male<br/>Jerry Smith
+Alive
+Male<br/>Pagination is not present</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">homePageBehavior.TC2#GenderSelectionPreservedonSearching</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Morty Smith
+Alive
+Male<br/>Alien Morty
+unknown
+Male<br/>Antenna Morty
+Alive
+Male<br/>Aqua Morty
+unknown
+Male<br/>***************AFTER SELECTING FEMALE CHARACTER*****************<br/>Morty’s Disguise
+Alive
+Female<br/>Morty’s Mother-in-law
+Alive
+Female<br/>Morty’s Girlfriend
+Alive
+Female<br/>Pagination is hidden</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">homePageBehavior.TC3#livingStatus</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Antenna Rick
+unknown
+Male<br/>Aqua Rick
+unknown
+Male<br/>Zeta Alpha Rick
+Dead
+Male<br/>Dead:Zeta Alpha Rick
+Dead
+Male</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">homePageBehavior.TC4#ResetFilter</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">***************Default first four character************<br/>Rick Sanchez
+Alive
+Male<br/>Morty Smith
+Alive
+Male<br/>Summer Smith
+Alive
+Female<br/>Beth Smith
+Alive
+Female<br/>***************After selecting Beth and unknown**********************<br/>Goddess Beth
+unknown
+Female<br/>Young Beth
+unknown
+Female<br/>Young Beth
+unknown
+Female<br/>***************Default first four character after Reset************<br/>Rick Sanchez
+Alive
+Male<br/>Morty Smith
+Alive
+Male<br/>Summer Smith
+Alive
+Female<br/>Beth Smith
+Alive
+Female</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">homePageBehavior.TC5#noResultcase</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Popup message:Characters Not Found</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">homePageBehavior.TC6#characterDisplayScreen</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Img:https://rickandmortyapi.com/api/character/avatar/1.jpeg<br/>Rick Sanchez
+Alive
+Male<br/>**************************************************<br/>Img:https://rickandmortyapi.com/api/character/avatar/1.jpeg<br/>Rick Sanchez
+Male
+Alive<br/>Img are equal:true</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">loginAndLogout.TC1#login</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Login is successfully with given username and password<br/>Login is successfully with given username and password<br/>Login is unsuccessful with incorrect username and password : User not found</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">loginAndLogout.TC2#wrongpassAndCorrectemail</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Wrong password : successfully got message for correct email and incorrect password</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">loginAndLogout.TC3#wrongusername</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Entering a wrong email : User not found</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">loginAndLogout.TC4#successfulLoginRefresh</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">After LOGIN : the user is not asked to enter the email and password again on page refresh</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">loginAndLogout.TC5#logoutrefresh</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">After LOGOUT: the user is asked to enter the email and password again on page refresh</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

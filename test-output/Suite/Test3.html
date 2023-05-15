@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>TestNG:  Test3</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test3</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 15 12:39:47 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>176 seconds (176761 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='loginAndLogout.TC4.successfulLoginRefresh()'><b>successfulLoginRefresh</b><br>Test class: loginAndLogout.TC4<br/>
+<a href="#Output-1838451269" onClick='toggleBox("Output-1838451269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1838451269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1838451269">
+After LOGIN : the user is not asked to enter the email and password again on page refresh<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>loginAndLogout.TC4@8dbdac1</td></tr>
+<tr>
+<td title='loginAndLogout.TC1.login()'><b>login</b><br>Test class: loginAndLogout.TC1<br/>
+<a href="#Output-694350278" onClick='toggleBox("Output-694350278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-694350278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-694350278">
+Login is successfully with given username and password<br/>
+Login is successfully with given username and password<br/>
+Login is unsuccessful with incorrect username and password : User not found<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>loginAndLogout.TC1@6e20b53a</td></tr>
+<tr>
+<td title='loginAndLogout.TC5.logoutrefresh()'><b>logoutrefresh</b><br>Test class: loginAndLogout.TC5<br/>
+<a href="#Output-265044772" onClick='toggleBox("Output-265044772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265044772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265044772">
+After LOGOUT: the user is asked to enter the email and password again on page refresh<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>loginAndLogout.TC5@5e0826e7</td></tr>
+<tr>
+<td title='loginAndLogout.TC2.wrongpassAndCorrectemail()'><b>wrongpassAndCorrectemail</b><br>Test class: loginAndLogout.TC2<br/>
+<a href="#Output-1391571530" onClick='toggleBox("Output-1391571530", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1391571530" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1391571530">
+Wrong password : successfully got message for correct email and incorrect password<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>loginAndLogout.TC2@71809907</td></tr>
+<tr>
+<td title='loginAndLogout.TC3.wrongusername()'><b>wrongusername</b><br>Test class: loginAndLogout.TC3<br/>
+<a href="#Output-1322195922" onClick='toggleBox("Output-1322195922", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1322195922" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1322195922">
+Entering a wrong email : User not found<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>loginAndLogout.TC3@32eff876</td></tr>
+</table><p>
+</body>
+</html>

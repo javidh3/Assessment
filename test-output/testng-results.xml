@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[After LOGOUT: the user is asked to enter the email and password again on page refresh]]>
+    </line>
+    <line>
+      <![CDATA[Entering a wrong email : User not found]]>
+    </line>
+    <line>
+      <![CDATA[After LOGIN : the user is not asked to enter the email and password again on page refresh]]>
+    </line>
+    <line>
+      <![CDATA[Jerry Smith
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Jerry Smith
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Jerry Smith
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Pagination is not present]]>
+    </line>
+    <line>
+      <![CDATA[Morty Smith
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Alien Morty
+unknown
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Antenna Morty
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Aqua Morty
+unknown
+Male]]>
+    </line>
+    <line>
+      <![CDATA[***************AFTER SELECTING FEMALE CHARACTER*****************]]>
+    </line>
+    <line>
+      <![CDATA[Morty’s Disguise
+Alive
+Female]]>
+    </line>
+    <line>
+      <![CDATA[Morty’s Mother-in-law
+Alive
+Female]]>
+    </line>
+    <line>
+      <![CDATA[Morty’s Girlfriend
+Alive
+Female]]>
+    </line>
+    <line>
+      <![CDATA[Pagination is hidden]]>
+    </line>
+    <line>
+      <![CDATA[Antenna Rick
+unknown
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Aqua Rick
+unknown
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Zeta Alpha Rick
+Dead
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Dead:Zeta Alpha Rick
+Dead
+Male]]>
+    </line>
+    <line>
+      <![CDATA[***************Default first four character************]]>
+    </line>
+    <line>
+      <![CDATA[Rick Sanchez
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Morty Smith
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Summer Smith
+Alive
+Female]]>
+    </line>
+    <line>
+      <![CDATA[Beth Smith
+Alive
+Female]]>
+    </line>
+    <line>
+      <![CDATA[***************After selecting Beth and unknown**********************]]>
+    </line>
+    <line>
+      <![CDATA[Goddess Beth
+unknown
+Female]]>
+    </line>
+    <line>
+      <![CDATA[Young Beth
+unknown
+Female]]>
+    </line>
+    <line>
+      <![CDATA[Young Beth
+unknown
+Female]]>
+    </line>
+    <line>
+      <![CDATA[***************Default first four character after Reset************]]>
+    </line>
+    <line>
+      <![CDATA[Rick Sanchez
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Morty Smith
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[Summer Smith
+Alive
+Female]]>
+    </line>
+    <line>
+      <![CDATA[Beth Smith
+Alive
+Female]]>
+    </line>
+    <line>
+      <![CDATA[Popup message:Characters Not Found]]>
+    </line>
+    <line>
+      <![CDATA[Img:https://rickandmortyapi.com/api/character/avatar/1.jpeg]]>
+    </line>
+    <line>
+      <![CDATA[Rick Sanchez
+Alive
+Male]]>
+    </line>
+    <line>
+      <![CDATA[**************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Img:https://rickandmortyapi.com/api/character/avatar/1.jpeg]]>
+    </line>
+    <line>
+      <![CDATA[Rick Sanchez
+Male
+Alive]]>
+    </line>
+    <line>
+      <![CDATA[Img are equal:true]]>
+    </line>
+    <line>
+      <![CDATA[Login is successfully with given username and password]]>
+    </line>
+    <line>
+      <![CDATA[Login is successfully with given username and password]]>
+    </line>
+    <line>
+      <![CDATA[Login is unsuccessful with incorrect username and password : User not found]]>
+    </line>
+    <line>
+      <![CDATA[Wrong password : successfully got message for correct email and incorrect password]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-15T17:10:55 IST" name="Suite" finished-at="2023-05-15T17:12:10 IST" duration-ms="75297">
+    <groups>
+    </groups>
+    <test started-at="2023-05-15T17:10:55 IST" name="Test" finished-at="2023-05-15T17:12:10 IST" duration-ms="75297">
+      <class name="loginAndLogout.TC5">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:loginAndLogout.TC5@3ba9ad43]" started-at="2023-05-15T17:10:55 IST" name="openApp" finished-at="2023-05-15T17:10:58 IST" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="logoutrefresh()[pri:0, instance:loginAndLogout.TC5@3ba9ad43]" started-at="2023-05-15T17:10:58 IST" name="logoutrefresh" finished-at="2023-05-15T17:11:01 IST" duration-ms="3547" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After LOGOUT: the user is asked to enter the email and password again on page refresh]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutrefresh -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:loginAndLogout.TC5@3ba9ad43]" started-at="2023-05-15T17:11:01 IST" name="closeApp" finished-at="2023-05-15T17:11:01 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- loginAndLogout.TC5 -->
+      <class name="homePageBehavior.TC3">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:homePageBehavior.TC3@3d74bf60]" started-at="2023-05-15T17:11:33 IST" name="openApp" finished-at="2023-05-15T17:11:36 IST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="livingStatus()[pri:0, instance:homePageBehavior.TC3@3d74bf60]" started-at="2023-05-15T17:11:36 IST" name="livingStatus" finished-at="2023-05-15T17:11:42 IST" duration-ms="6767" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Antenna Rick
+unknown
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Aqua Rick
+unknown
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Zeta Alpha Rick
+Dead
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Dead:Zeta Alpha Rick
+Dead
+Male]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- livingStatus -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:homePageBehavior.TC3@3d74bf60]" started-at="2023-05-15T17:11:42 IST" name="closeApp" finished-at="2023-05-15T17:11:43 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- homePageBehavior.TC3 -->
+      <class name="homePageBehavior.TC4">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:homePageBehavior.TC4@4f209819]" started-at="2023-05-15T17:11:43 IST" name="openApp" finished-at="2023-05-15T17:11:45 IST" duration-ms="2648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="ResetFilter()[pri:0, instance:homePageBehavior.TC4@4f209819]" started-at="2023-05-15T17:11:45 IST" name="ResetFilter" finished-at="2023-05-15T17:11:54 IST" duration-ms="8384" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[***************Default first four character************]]>
+            </line>
+            <line>
+              <![CDATA[Rick Sanchez
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Morty Smith
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Summer Smith
+Alive
+Female]]>
+            </line>
+            <line>
+              <![CDATA[Beth Smith
+Alive
+Female]]>
+            </line>
+            <line>
+              <![CDATA[***************After selecting Beth and unknown**********************]]>
+            </line>
+            <line>
+              <![CDATA[Goddess Beth
+unknown
+Female]]>
+            </line>
+            <line>
+              <![CDATA[Young Beth
+unknown
+Female]]>
+            </line>
+            <line>
+              <![CDATA[Young Beth
+unknown
+Female]]>
+            </line>
+            <line>
+              <![CDATA[***************Default first four character after Reset************]]>
+            </line>
+            <line>
+              <![CDATA[Rick Sanchez
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Morty Smith
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Summer Smith
+Alive
+Female]]>
+            </line>
+            <line>
+              <![CDATA[Beth Smith
+Alive
+Female]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ResetFilter -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:homePageBehavior.TC4@4f209819]" started-at="2023-05-15T17:11:54 IST" name="closeApp" finished-at="2023-05-15T17:11:54 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- homePageBehavior.TC4 -->
+      <class name="homePageBehavior.TC1">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:homePageBehavior.TC1@41e36e46]" started-at="2023-05-15T17:11:09 IST" name="openApp" finished-at="2023-05-15T17:11:12 IST" duration-ms="2471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="YieldingCorrectResults()[pri:0, instance:homePageBehavior.TC1@41e36e46]" started-at="2023-05-15T17:11:12 IST" name="YieldingCorrectResults" finished-at="2023-05-15T17:11:19 IST" duration-ms="7839" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Jerry Smith
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Jerry Smith
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Jerry Smith
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Pagination is not present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- YieldingCorrectResults -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:homePageBehavior.TC1@41e36e46]" started-at="2023-05-15T17:11:19 IST" name="closeApp" finished-at="2023-05-15T17:11:20 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- homePageBehavior.TC1 -->
+      <class name="homePageBehavior.TC2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:homePageBehavior.TC2@15c43bd9]" started-at="2023-05-15T17:11:20 IST" name="openApp" finished-at="2023-05-15T17:11:22 IST" duration-ms="2191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="GenderSelectionPreservedonSearching()[pri:0, instance:homePageBehavior.TC2@15c43bd9]" started-at="2023-05-15T17:11:22 IST" name="GenderSelectionPreservedonSearching" finished-at="2023-05-15T17:11:33 IST" duration-ms="10734" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Morty Smith
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Alien Morty
+unknown
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Antenna Morty
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[Aqua Morty
+unknown
+Male]]>
+            </line>
+            <line>
+              <![CDATA[***************AFTER SELECTING FEMALE CHARACTER*****************]]>
+            </line>
+            <line>
+              <![CDATA[Morty’s Disguise
+Alive
+Female]]>
+            </line>
+            <line>
+              <![CDATA[Morty’s Mother-in-law
+Alive
+Female]]>
+            </line>
+            <line>
+              <![CDATA[Morty’s Girlfriend
+Alive
+Female]]>
+            </line>
+            <line>
+              <![CDATA[Pagination is hidden]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GenderSelectionPreservedonSearching -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:homePageBehavior.TC2@15c43bd9]" started-at="2023-05-15T17:11:33 IST" name="closeApp" finished-at="2023-05-15T17:11:33 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- homePageBehavior.TC2 -->
+      <class name="homePageBehavior.TC5">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:homePageBehavior.TC5@39529185]" started-at="2023-05-15T17:11:54 IST" name="openApp" finished-at="2023-05-15T17:11:56 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="noResultcase()[pri:0, instance:homePageBehavior.TC5@39529185]" started-at="2023-05-15T17:11:56 IST" name="noResultcase" finished-at="2023-05-15T17:11:58 IST" duration-ms="2101" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Popup message:Characters Not Found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- noResultcase -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:homePageBehavior.TC5@39529185]" started-at="2023-05-15T17:11:58 IST" name="closeApp" finished-at="2023-05-15T17:11:59 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- homePageBehavior.TC5 -->
+      <class name="homePageBehavior.TC6">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:homePageBehavior.TC6@72f926e6]" started-at="2023-05-15T17:11:59 IST" name="openApp" finished-at="2023-05-15T17:12:01 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="characterDisplayScreen()[pri:0, instance:homePageBehavior.TC6@72f926e6]" started-at="2023-05-15T17:12:01 IST" name="characterDisplayScreen" finished-at="2023-05-15T17:12:03 IST" duration-ms="2538" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Img:https://rickandmortyapi.com/api/character/avatar/1.jpeg]]>
+            </line>
+            <line>
+              <![CDATA[Rick Sanchez
+Alive
+Male]]>
+            </line>
+            <line>
+              <![CDATA[**************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Img:https://rickandmortyapi.com/api/character/avatar/1.jpeg]]>
+            </line>
+            <line>
+              <![CDATA[Rick Sanchez
+Male
+Alive]]>
+            </line>
+            <line>
+              <![CDATA[Img are equal:true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- characterDisplayScreen -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:homePageBehavior.TC6@72f926e6]" started-at="2023-05-15T17:12:03 IST" name="closeApp" finished-at="2023-05-15T17:12:04 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- homePageBehavior.TC6 -->
+      <class name="loginAndLogout.TC4">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:loginAndLogout.TC4@76508ed1]" started-at="2023-05-15T17:11:04 IST" name="openApp" finished-at="2023-05-15T17:11:07 IST" duration-ms="2405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="successfulLoginRefresh()[pri:0, instance:loginAndLogout.TC4@76508ed1]" started-at="2023-05-15T17:11:07 IST" name="successfulLoginRefresh" finished-at="2023-05-15T17:11:09 IST" duration-ms="2439" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After LOGIN : the user is not asked to enter the email and password again on page refresh]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successfulLoginRefresh -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:loginAndLogout.TC4@76508ed1]" started-at="2023-05-15T17:11:09 IST" name="closeApp" finished-at="2023-05-15T17:11:09 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- loginAndLogout.TC4 -->
+      <class name="loginAndLogout.TC3">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:loginAndLogout.TC3@4facf68f]" started-at="2023-05-15T17:11:01 IST" name="openApp" finished-at="2023-05-15T17:11:04 IST" duration-ms="2542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="wrongusername()[pri:0, instance:loginAndLogout.TC3@4facf68f]" started-at="2023-05-15T17:11:04 IST" name="wrongusername" finished-at="2023-05-15T17:11:04 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering a wrong email : User not found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wrongusername -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:loginAndLogout.TC3@4facf68f]" started-at="2023-05-15T17:11:04 IST" name="closeApp" finished-at="2023-05-15T17:11:04 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- loginAndLogout.TC3 -->
+      <class name="loginAndLogout.TC2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:loginAndLogout.TC2@31c88ec8]" started-at="2023-05-15T17:12:07 IST" name="openApp" finished-at="2023-05-15T17:12:09 IST" duration-ms="2195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="wrongpassAndCorrectemail()[pri:0, instance:loginAndLogout.TC2@31c88ec8]" started-at="2023-05-15T17:12:09 IST" name="wrongpassAndCorrectemail" finished-at="2023-05-15T17:12:10 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong password : successfully got message for correct email and incorrect password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wrongpassAndCorrectemail -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:loginAndLogout.TC2@31c88ec8]" started-at="2023-05-15T17:12:10 IST" name="closeApp" finished-at="2023-05-15T17:12:10 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- loginAndLogout.TC2 -->
+      <class name="loginAndLogout.TC1">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:loginAndLogout.TC1@3daa422a]" started-at="2023-05-15T17:12:04 IST" name="openApp" finished-at="2023-05-15T17:12:06 IST" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="login()[pri:0, instance:loginAndLogout.TC1@3daa422a]" started-at="2023-05-15T17:12:06 IST" name="login" finished-at="2023-05-15T17:12:07 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login is successfully with given username and password]]>
+            </line>
+            <line>
+              <![CDATA[Login is successfully with given username and password]]>
+            </line>
+            <line>
+              <![CDATA[Login is unsuccessful with incorrect username and password : User not found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:loginAndLogout.TC1@3daa422a]" started-at="2023-05-15T17:12:07 IST" name="closeApp" finished-at="2023-05-15T17:12:07 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- loginAndLogout.TC1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
